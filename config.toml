@@ -1,0 +1,22 @@
+theme = "dracula"
+
+[editor]
+auto-save = true
+auto-format = true
+auto-pairs = false
+cursorline = true
+line-number = "relative"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type", "version-control"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+C-s = ":write"
