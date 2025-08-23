@@ -23,3 +23,6 @@ enable = true
 
 [keys.normal]
 C-s = ":write"
+C-e = "scroll_down"
+C-y = "scroll_up"
+"A-x" = "@x<A-d>"
